@@ -16,6 +16,23 @@ In addition to extracting raw text, Textify-GPU integrates AI-powered post-proce
 
 ---
 
+## Python Libraries Used
+- `pyspellchecker` : Used for correcting spelling errors in extracted text while preserving structure.
+- `transformers` :  Utilized for loading the OCR model (GOT-OCR2_0) to process images and extract text.
+- `groq` : Calls Groq's `llama-3.3-70b-versatile` model API to clean and refine extracted text.
+- `ipywidgets` : Builds the interactive GUI for uploading images and downloading extracted text.
+- `pillow` :  Handles image processing, including opening and displaying uploaded images.
+- `python-docx` :  Saves extracted text as a `.docx` document.
+- `fpdf` : Converts extracted text into a formatted `.pdf` document.
+- `re` : Uses regular expressions to add spaces after punctuation for better readability.
+- `IPython` : Displays HTML elements for image previews and download links.
+- `base64` : Encodes images and files for web display and downloads.
+- `io` : Manages file streams for reading and writing images and text files.
+
+The libraries `tiktoken`, `verovio`, and `indexer` are dependencies required for the **GOT-OCR2_0** model to function properly.
+
+
+---
 ## Model Details
 - **OCR Model:** [stepfun-ai/GOT-OCR2_0](https://huggingface.co/stepfun-ai/GOT-OCR2_0)
 - **Post-Processing API:** [Groq API](https://console.groq.com/keys) using `llama-3.3-70b-versatile` 
