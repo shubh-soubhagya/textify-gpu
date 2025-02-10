@@ -7,6 +7,17 @@ In addition to extracting raw text, Textify-GPU integrates AI-powered post-proce
 
 ---
 
+## Google Colaboratory Link: [https://colab.research.google.com/drive/18pKBXhJ3O0I9euWq7IW9dyyVoLPTSRuJ?usp=sharing](https://colab.research.google.com/drive/18pKBXhJ3O0I9euWq7IW9dyyVoLPTSRuJ?usp=sharing)
+
+The tool is developed in Google Colab as the model requires high computational power. However, if your local system supports it, you can run the provided `OCR_script.ipynb` file from the repository.
+
+***📌 Note:***  
+- **Use a high-resolution or scanned image as input.**  
+- **Ensure that a T4 GPU is connected.**  
+
+
+---
+
 ## Features
 - **Handwritten & Printed Text Extraction**: Supports both handwritten and printed text recognition.
 - **Fast Processing**: Utilizes GPU computation for high-speed OCR.
