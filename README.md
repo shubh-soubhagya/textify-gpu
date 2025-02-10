@@ -7,7 +7,7 @@ In addition to extracting raw text, Textify-GPU integrates AI-powered post-proce
 
 ---
 
-## Google Colaboratory Link: [Textify-GPU](https://colab.research.google.com/drive/18pKBXhJ3O0I9euWq7IW9dyyVoLPTSRuJ?usp=sharing)
+## Google Colaboratory Link: [[Textify-GPU](https://colab.research.google.com/drive/18pKBXhJ3O0I9euWq7IW9dyyVoLPTSRuJ?usp=sharing)](https://colab.research.google.com/drive/18pKBXhJ3O0I9euWq7IW9dyyVoLPTSRuJ?usp=sharing)
 
 The tool is developed in Google Colab as the model requires high computational power. However, if your local system supports it, you can run the provided `OCR_script.ipynb` file from the repository.
 
