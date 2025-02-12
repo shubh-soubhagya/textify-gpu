@@ -15,6 +15,10 @@ The tool is developed in Google Colab as the model requires high computational p
 - **Use a high-resolution or scanned image as input.**  
 - **Ensure that a T4 GPU is connected.**  
 
+---
+
+## Demo Image:
+![Demo image of interface](images/Demo.png)
 
 ---
 
